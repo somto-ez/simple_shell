@@ -77,7 +77,7 @@ typedef struct passinfo
 	unsigned int line_count;
 	int err_num;
 	int linecount_flag;
-	char *fname
+	char *fname;
 	list_t *env;
 	list_t *history;
 	list_t *alias;
